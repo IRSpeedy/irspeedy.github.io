@@ -1,12 +1,12 @@
-title: "نام برند شما"
-description: "توضیحات کوتاه درباره سایت"
+title: "IRSPEEDY"
+description: "سایت خرید اکانت اصلی IRSPEEDY"
 baseurl: ""
-url: "https://نام_کاربری.github.io"
+url: "https://irspeedy.github.io"
 permalink: /blog/:title/
 theme: null
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-author: "نام شما"
-email: "ایمیل شما"
+author: "IRSPEEDY"
+email: "info@irspeedy.store"
