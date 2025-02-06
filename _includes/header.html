@@ -1,6 +1,8 @@
 <header class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">نام برند</a>
+    <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="لوگو" width="243" height="70" class="me-2">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,14 +13,25 @@
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">خانه</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ '/about' | relative_url }}">درباره ما</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ '/contact' | relative_url }}">تماس با ما</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ '/download' | relative_url }}">دانلود نرم‌افزار</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ '/agency' | relative_url }}">اخذ نمایندگی</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ '/pricing' | relative_url }}">خرید اکانت</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">IRSPEEDY</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/pricing' | relative_url }}">خرید اکانت</a></li>          
+          <li class="nav-item"><a class="nav-link" href="{{ '/about' | relative_url }}">درباره IRSpeedy</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/contact' | relative_url }}">تماس با IRSpeedy</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="downloadMenu" role="button" data-bs-toggle="dropdown">
+              دانلود irspeedy
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="downloadMenu">
+              <li><a class="dropdown-item" href="{{ '/download/android/' | relative_url }}">IRSpeedy APK Android</a></li>
+              <li><a class="dropdown-item" href="{{ '/download/ios/' | relative_url }}">IRSpeedy iOS</a></li>
+              <li><a class="dropdown-item" href="{{ '/download/windows/' | relative_url }}">IRSpeedy Windows</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="{{ '/agency' | relative_url }}">نمایندگی</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ '/blog' | relative_url }}">بلاگ</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://پنل_کاربری_شما.com">پنل کاربری</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://irspeedyco.online/login">پنل کاربری</a></li>
         </ul>
       </div>
     </div>
