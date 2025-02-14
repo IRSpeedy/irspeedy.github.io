@@ -10,7 +10,7 @@
                     post.title }}</a>
             </div>
             <a href="{{ post.url }}" title="{{ post.title }}">
-                <img class="img-fluid" src="{% thumbnail_img post.image 304 %}" alt="{{ post.title }}" />
+                <img class="img-fluid" src="http://images.weserv.nl/?url={{ page.image }}&w=304&h=171&output=webp&q=85&fit=outside" width="304" height="171" alt="{{ post.title }}" />
             </a>
             <div class="card-body">
                 <p class="card-text">

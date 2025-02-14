@@ -15,7 +15,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-jalali
-  - jekyll-thumbnail-img
 author: "IRSPEEDY"
 email: "info@irspeedy.store"
 cache_dir: "_cache"
