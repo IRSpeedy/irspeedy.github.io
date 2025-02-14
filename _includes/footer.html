@@ -1,20 +1,40 @@
-<footer class="bg-dark text-light text-center py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2">
-        <img src="{{ '/assets/images/IRSPEEDY-S.webp' | relative_url }}" alt="لوگو" width="105" height="108">
+<footer class="bg-dark text-light">
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <div class="row align-items-center">
+          <div class="col-md-2"><img src="{{ '/assets/images/IRSPEEDY-S.webp' | relative_url }}" alt="لوگو" width="105"
+              height="108"></div>
+          <div class="col-md-10">
+            <p>ما بر این عقیده هستیم که شهرت به تنهایی کافی نیست بلکه ارائه خدمات با کیفیت و پشتیبانی کامل از محصولاتمان
+              میتواند رضایت شما را جلب کند و این مهمترین فاکتور در مجموعه آی‌آراسپیدی است.</p>
+          </div>
+        </div>
       </div>
       <div class="col-md-4">
-        <p>ما بر این عقیده هستیم که شهرت به تنهایی کافی نیست بلکه ارائه خدمات با کیفیت و پشتیبانی کامل از محصولاتمان
-          میتواند رضایت شما را جلب کند و این مهمترین فاکتور در مجموعه آی‌آراسپیدی است.</p>
-      </div>
-      <div class="col-md-6">
-        <div class="social">
-          <a class="btn btn-light" href="https://t.me/irspeedy_admin" title="پشتیبانی تلگرام" aria-label="پشتیبانی تلگرام">
-            <span class="far  fa-headset"></span> <span>پشتیبانی تلگرام</span> </a>
-          <a class="btn btn-light"  href="https://t.me/vpnirspeedy" title="کانال تلگرام" aria-label="کانال تلگرام">
-            <span class="fab fa-telegram"></span> <span>کانال تلگرام</span> </a>
+        <h6>شبکه‌های اجتماعی ما</h6>
+        <div class="social mb-4">
+          {% for social in site.data.socials %}
+          <a class="btn btn-light{{ social.class }} mb-2" href="{{ social.link }}" title="{{ social.title }}">
+            <span class="{{ social.icon}}"></span> <span>{{ social.title }}</span>
+          </a>
+          {% endfor %}
         </div>
+        <h6>ارتباط با پشتیبانی</h6>
+        <div class="supports mb-4">
+          {% for support in site.data.supports %}
+          <a class="btn btn-light{{ support.class }} mb-2" href="{{ support.link }}" title="{{ support.title }}">
+            <span class="{{ support.icon}}"></span> <span>{{ support.title }}</span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid container-fluid bg-white bg-opacity-25 py-3">
+    <div class="row text-center">
+      <div class="col">
+        <div>© 2025 تمامی حقوق محفوظ است.</div>
       </div>
     </div>
   </div>

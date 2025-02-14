@@ -1,0 +1,38 @@
+<section class="blog-posts py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        {% for post in site.posts %}
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="{{ post.url }}" title="{{ post.title }}">{{
+                                        post.title }}</a>
+                                </div>
+                                <a href="{{ post.url }}" title="{{ post.title }}">
+                                    <img class="img-fluid" src="{% thumbnail_img post.image 622 %}" alt="{{ post.title }}" />
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        {% if post.content contains '<!--excerpt.start-->' and post.content contains '<!--excerpt.end-->' %}
+                                            {{ ((post.content | split:'<!--excerpt.start-->' | last) | split: '<!--excerpt.end-->' | first) | strip_html | truncatewords: 30 }}
+                                        {% else %}
+                                            {{ post.content | strip_html | truncatewords: 30 }}
+                                        {% endif %}
+                                    </p>                                    
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <small class="text-body-secondary">{{ post.date | jdate: "%A %d %b %Y"}}</small>
+                                    <a href="{{ post.url }}" class="btn btn-primary">خواندن <i class="ms-3 fa fa-chevron-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

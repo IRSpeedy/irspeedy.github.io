@@ -1,0 +1,29 @@
+- title: "کانال تلگرام"
+  icon: "fa fab fa-telegram"
+  class: " telegram"
+  link: "https://t.me/vpnirspeedy"
+
+- title: "کانال واتساپ"
+  icon: "fa fab fa-whatsapp"
+  class: " whatsapp"
+  link: "https://whatsapp.com/channel/0029VazJNaLG8l5LwtyqSU2c"
+
+- title: "اینستاگرام"
+  icon: "fa fab fa-instagram"
+  class: " instagram"
+  link: "https://www.instagram.com/irspeedy_vpn/"
+
+- title: "پینترنست"
+  icon: "fa fab fa-pinterest"
+  class: " pinterest"
+  link: "https://www.pinterest.com/irspeedyco/"
+
+- title: "ایکس"
+  icon: "fa fab fa-x"
+  class: " x twitter"
+  link: "https://x.com/irspeedyco"
+
+- title: "مدیوم"
+  icon: "fa fab fa-medium"
+  class: " pinterest"
+  link: "https://irspeedyco.medium.com/"

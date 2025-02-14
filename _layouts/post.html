@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article>
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="blog-post-meta text-body-tertiary">{{ page.date | jdate: "%A %d %b %Y"}}</p>
+  {% if page.image %}
+  <div class="post-image mb-4">
+    <img src="{{ page.image }}" alt="{{ page.title }}" class="img-thumbnail mx-auto d-block">
+  </div>
+  {% endif %}
+  <div class="post-text">{{ content }}</div>
+</article>
+
+{% include latest_posts.html %}

@@ -1,0 +1,24 @@
+<p class="text-center mb-3">همین حالا خرید خود را انجام دهید و به صورت خودکار اکانت را تحویل بگیرید</p>
+<div class="row row-cols-1 row-cols-md-5 g-2 irspeedy-packages">
+  {% for plan in site.data.plans %}
+  <div class="col irspeedy-packages">
+    <div class="card h-100">
+      <h6 class="card-header text-center ">{{ plan.title }}</h6>
+      <div class="card-body">
+        <p class="card-text bg-secondary text-white text-center fs-4">{{ plan.price }}</p>
+      </div>
+      <ul class="list-group list-group-flush p-0">
+        {% for feature in plan.features %}
+        <li class="list-group-item">{{ feature.text }}</li>
+        {% endfor %}
+      </ul>
+      <div class="card-footer">
+        <a class="price-link btn btn-primary d-block" href="{{ plan.link }}" target="_blank"
+          rel="nofollow nofollow noopener">
+          <span class="fa fa-shopping-basket"></span> خرید و تحویل خودکار
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

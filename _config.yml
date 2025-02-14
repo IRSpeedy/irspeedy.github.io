@@ -4,9 +4,18 @@ baseurl: ""
 url: "https://irspeedy.github.io"
 permalink: /blog/:title/
 theme: null
+skip_generator: true
+show_generator: false
+jekyll-seo-tag:
+  logo: "/assets/images/favicon.ico"
+  generator: false
+  skip_generator: true
+lang: "fa_IR"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
+  - jekyll-jalali
+  - jekyll-thumbnail-img
 author: "IRSPEEDY"
 email: "info@irspeedy.store"
+cache_dir: "_cache"
