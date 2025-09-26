@@ -10,7 +10,7 @@ description: "دانلود irspeedy برای ویندوز"
     برای نصب و استفاده از IRSpeedy در ویندوز آورده شده است:</p>
 <h2>مراحل نصب IRSpeedy روی ویندوز:</h2>
 <p>&nbsp; &nbsp; دانلود و نصب نرم‌افزار IRSpeedy:<br>&nbsp; &nbsp; &nbsp; &nbsp; ابتدا به وب‌سایت رسمی <a
-        href="https://irspeedy.download/">irspeedy</a> مراجعه کنید و نسخه ویندوز اپلیکیشن را دانلود کنید.<br>&nbsp;
+        href="https://irspeedy.github.io/">irspeedy</a> مراجعه کنید و نسخه ویندوز اپلیکیشن را دانلود کنید.<br>&nbsp;
     &nbsp; &nbsp; &nbsp; پس از دانلود، فایل نصب را اجرا کنید و نرم‌افزار را روی سیستم خود نصب کنید.</p>
 <p style="text-align: center;"><a href="https://irspeedyco.online/howtousemyvpnaccount" target="_blank" class="price-link btn btn-lg btn-primary">دانلود irspeedy برای ویندوز</a>
 </p>
