@@ -25,15 +25,23 @@ description: "دانلود irspeedy ios"
 <p>&nbsp; &nbsp; اتصال به سرویس و استفاده از IRSpeedy: بعد از نصب، اپلیکیشن IRSpeedy را از صفحه اصلی آیفون خود باز
     کنید.<br>&nbsp; &nbsp; &nbsp; &nbsp; وارد حساب کاربری خود شوید یا اگر حسابی ندارید، ثبت‌نام کنید.<br>&nbsp; &nbsp;
     &nbsp; &nbsp; به راحتی به آی‌پی ثابت و ویژگی‌های دیگر دسترسی پیدا کنید و از اینترنت امن و سریع لذت ببرید!</p>
+<p>
+    <a class="price-link btn btn-primary" href="https://testflight.apple.com/join/2JMBDp9K">لینک دعوت TestFlight برای
+        IRSpeedy</a>
+</p>
 <h3>چرا باید از TestFlight استفاده کنید؟</h3>
 <p>&nbsp; &nbsp; TestFlight به شما این امکان را می‌دهد که نسخه‌های آزمایشی اپلیکیشن‌ها را قبل از انتشار عمومی تست
     کنید.<br>&nbsp; &nbsp; با استفاده از TestFlight، شما می‌توانید به راحتی نسخه‌های جدید و به‌روز شده IRSpeedy را روی
     آیفون خود نصب کرده و از ویژگی‌های جدید آن بهره‌برداری کنید.</p>
 <p>نتیجه‌گیری:</p>
-<p>برای استفاده از <a href="https://irspeedy.download/">irspeedy</a> روی آیفون و بهره‌مندی از ویژگی‌های امنیتی و سرعت
+<p>برای استفاده از <a href="https://irspeedy.github.io/">irspeedy</a> روی آیفون و بهره‌مندی از ویژگی‌های امنیتی و سرعت
     بالا، تنها کافیست TestFlight را نصب کنید و نسخه آزمایشی IRSpeedy را از طریق لینک دعوتی فعال کنید. همین امروز شروع
     کنید و تجربه آنلاین ایمن و سریع را با IRSpeedy داشته باشید!</p>
+
 <p>
+    <a class="price-link btn btn-primary" href="https://testflight.apple.com/join/2JMBDp9K">لینک دعوت TestFlight برای
+        IRSpeedy</a>
+</p>
 
 <h3 class="text-center mt-5 mb-3">خرید VPN Irspeedy اصل</h3>
 {% include subscription.html %}
